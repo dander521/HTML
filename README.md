@@ -1,5 +1,5 @@
 # HTML
-study html
+Study html
 
 ###Chapter 1
 
