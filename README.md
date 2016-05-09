@@ -64,6 +64,15 @@ Lists:
 代码插入头像
 水平对其方式：align: right,left,top,middle,bottom
 
+###Chapter 6
 
+表：<table>
+行：<tr> <td>
+标题：<th> scope="col" scope="row"
+跨列，跨行：colspan rowspan
+长表格：<thead> <tbody> <tfoot>
+
+表格宽度，单元格内边距，单元格间距：width,cellpadding,cellspacing
+边框宽度，背景色：border，bgcolor
 
 
