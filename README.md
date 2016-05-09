@@ -51,3 +51,19 @@ Lists:
 无序列表：<ul>,<li>
 自定义列表：<dl>,<dt>,<dd>
 
+###Chapter 4
+
+链接：<a>
+邮箱：<mailto>
+新窗口：<target>
+
+###Chapter 5
+
+图片：<img src:"图片路径" alt:"文本说明" title:"停留信息"/>
+高度宽度：height，weight
+代码插入头像
+水平对其方式：align: right,left,top,middle,bottom
+
+
+
+
