@@ -77,4 +77,65 @@ Lists:
 
 ###Chapter 7
 
+表单结构：<form> action method id size 
+单行文本框: <input> type[text] name maxlength 
+密码框：<input> type[password] name size maxlength
+文本域；<textarea>
+单选按钮：<input> type[radio] name value checked
+复选框：<input> type[checkbox] name value checked
+下拉列表框：<select> name <option> value selected
+多选框：<select> size multiple
+文件上传域：<input> type[file]
+提交按钮：<input> type[submit] name value
+头像按钮: <input> type[image]
+按钮和隐藏控件：<button> <input> type[hidden]
+标签表单控件：<label> for id 
+组合表单元素： <fieldset> <legend>
+HTML5:
+表单验证：required
+日期控件：<input> type[date]
+电子邮件：<input> type[email]
+URL: <input> type[url]
+搜索输入控件：<input> type[search] placeholder
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

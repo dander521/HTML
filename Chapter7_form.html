@@ -119,6 +119,62 @@
 			<input type="hidden" name="bookmark" value="lyrics"></input>
 		</form>
 
+		<!-- 标签表单控件 -->
+		<label>Age: <input type="text" name="age"></input></label>
+		<br />
+		Gender:
+		<input id="female" type="radio" name="gender" value="f"></input>
+		<label for="female">Female</label>
+		<input id="male" type="radio" name="gender" value="m"></input>
+		<label for="male">Male</label>
+
+		<!-- 组合表单元素 -->
+		<fieldset>
+			<legend>Contact details</legend>
+			<label>Email:<br />
+			<input type="text" name="email"></input></label><br />
+			<label>Mobile:<br />
+			<input type="text" name="mobile"></input></label><br />
+			<label>Telephone:<br />
+			<input type="text" name="telephone"></input></label>
+		</fieldset>
+
+		<!-- HTML5 -->
+		<!-- 表单验证 Chrome Opear 支持 -->
+		<form action="www.baidu.com" method="post">
+			<label for="username">Username:</label>
+			<input type="text" name="username" required="reuqired"></input><br />
+			<label for="password">Password:</label>
+			<input type="password" name="password" required="required"></input>
+			<input type="submit" value="Submit"></input>
+		</form>
+
+		<!-- 日期控件 -->
+		<form action="www.baidu.com" method="post">
+			<label for="username">Departure date:</label>
+			<input type="date" name="depart"></input>
+			<input type="submit" value="Submit"></input>
+		</form>
+
+		<!-- 电子邮件和URL输入 -->
+		<form action="www.baidu.com" method="post">
+			<p>Please enter your email address:</p>
+			<input type="email" name="email"></input>
+			<input type="submit" value="Submit"></input>
+		</form>
+
+		<form action="www.baidu.com" method="post">
+			<p>Please enter your URL:</p>
+			<input type="url" name="website"></input>
+			<input type="submit" value="Submit"></input>
+		</form>
+
+		<!-- 搜索输入控件 -->
+		<form action="www.baidu.com" method="post">
+			<p>Search:</p>
+			<input type="search" name="search" placeholder="Enter your key"></input>
+			<input type="submit" value="Search"></input>
+		</form>
 
 	</body>
 </html>
