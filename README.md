@@ -98,8 +98,18 @@ HTML5:
 URL: <input> type[url]
 搜索输入控件：<input> type[search] placeholder
 
+###Chapter 8
 
-
+注释：<!--  -->
+id: 元素唯一标识
+class: 设置多个元素特性
+块级元素： <h1> <p> <ul> <li>
+内联元素： <a> <b> <em> <img>
+将文本和元素集中在一个块级元素中：<div>
+将文本和元素集中在一个内联元素中：<span>
+内联框架：<iframe>
+页面信息：<meta>
+转义字符：
 
 
 
