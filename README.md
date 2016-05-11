@@ -10,37 +10,21 @@ How to create a HTML file.
 The basic knowledge:
 
 结构化标记：描述标题和段落的元素
-
 语义化标记：特定含义的标记，强调、缩写。。。
-
 标题：<h1>,<h2>,<h3>,<h4>,<h5>,<h6>
-
 段落：<p>
-
 粗体：<b>
-
 斜体：<i>
-
 上标：<sup>
-
 下标：<sub>
-
 空白：增强代码阅读性，多个空格和换行，均为一个空格－－－－－－－白色空间折叠
-
 换行：<br />
-
 水平线：<hr />
-
 加粗和强调：<strong>,<em>
-
 标记引用：<blockquote>,<q>
-
 缩写词和首字母缩写词：<abbr title="">
-
 引用和定义：<cite>,<dfn>
-
 设计者详细信息：<address>
-
 内容的修改：删除<del>，插入<ins>，<s>不准确或不相关却并不应当予以删除的内容
 
 ###Chapter 3
@@ -114,9 +98,66 @@ class: 设置多个元素特性
 ###Chapter 9
 
 Flash 音视频
+视频:<video> src poster width height controls autoplay loop preload[none auto metadata]
+多个视频源：<source> src type codecs
+音频：<audio> src controls autoplay preload loop
+多个音频源：<source> src type
 
+###Chapter 10
 
+CSS
+使用外部CSS：<link> href type[text/css] rel[stylesheet]
+使用内部CSS：<style>
+选择器：
+通用：*{}
+类型：h1, h2 {}
+ID:#introduction {}
+子元素：li>a{}
+后代： p a {}
+相邻兄弟：h1 + p {}
+普通兄弟：h1~p {]
 
+###Chapter 11
+
+CSS Color
+
+红绿蓝
+色调
+饱和度
+亮度
+
+RGB
+HSL
+十六进制
+颜色名
+
+###Chapter 12
+
+Font
+字体选用：font-family
+字体大小：font-size 像素 百分数 em
+选用更多字体：@font-face font-family src format
+字体格式：eot woff ttf/otf svg
+粗体：font-weight bold normal
+斜体：font-style normal italic oblique
+大小写：text-transform  uppercase  lowercase  capitalize 
+下划线和删除线：text-decoration none underline overline line-through blink
+行间距：line-height 
+字母间距和单词间距：letter-spacing word-spacing
+对齐方式：text-align left right center justify
+垂直对齐：vertical-align baseline sub super top text-top middle bottom text-bottom
+文本缩进：text-indent
+投影：text-shadow
+首字母、首行文本：first-letter first-line 
+链接样式：:link :visitd :hover :active :focus 
+
+特性选择器：
+EXISTENCE（简单选择器）：p[class]
+EQUALITY（精确选择器）：p[class="dog"]
+SPACE（部分选择器）：p[class~="dog"]
+PREFIX（开头选择器）：p[attr^"d"]
+SUBSTRING（包含选择器）:p[attr*"do"]
+SUFFIX（结尾选择器）：p[attr$"g"]
 
 
 
