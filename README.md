@@ -159,6 +159,102 @@ PREFIX（开头选择器）：p[attr^"d"]
 SUBSTRING（包含选择器）:p[attr*"do"]
 SUFFIX（结尾选择器）：p[attr$"g"]
 
+###Chapter 13
+
+Boxes
+大小：width height
+宽度限制：min-width max-width
+高度限制：min-height max-height
+内容溢出：overflow hidden scroll
+边框：border
+外边距：margin
+内边距：padding
+边框宽度：border-width thin medium thick
+边框样式：border-style 
+    实线：solid
+    方形点：dotted
+    虚线：dashed
+    两条线：double
+    雕入页面：groove
+    凸起：ridge
+    嵌入页面：inset
+    凸出屏幕：outset
+    不显示：hidden／none
+边框颜色：border－color
+快捷方式：px dotted ＃333
+内容居中：1px auto 1px auto
+边框图像：border－image 
+    伸展：stretch
+    重复：repeat
+    铺满：round
+盒子投影：box－shadow 
+    水平［负值为阴影至于左侧］ 
+    垂直［负值为上方］   
+    模糊距离  
+    阴影扩展
+    inset：创建内部阴影
+圆角：border－radius
+椭圆：border－radius 
+    
+
+###Chapter 14
+
+List Table Form
+
+项目符号样式：list-style-type:
+    无序：none disc circle square
+    有序：
+        decimal 1 2 3
+        decimal-leading-zero 01 02 03
+        lower-alpha a b c
+        upper-alpha A B C
+        lower-roman i ii iii.
+        upper-roman
+项目头像：list-style-image
+标记定位：list-style-position
+    outside
+    inside
+快捷方式：list-style: outside circle
+
+
+表格属性：
+    width   
+    padding
+    text－transform 大小写转换
+    letter-spacing 字间距
+    font-size
+    border
+    :hover
+空单元格的边框：empty-cells
+    show
+    hide
+    inherit 嵌套表格 遵循外部表格规则
+单元格之间空隙：border-spacing, border-collapse
+    collapse:尽可能合并 
+
+单行文本框样式：
+    font-size
+    color
+    background-color
+    border
+    border-radius
+    :focus
+    :hover
+    background-image
+    text-shadow
+光标样式： cursor
+    auto
+    crosshair
+    default
+    pointer
+    move
+    text
+    wait
+    help
+    url("image.gif")
+    
+    
+
 
 
 

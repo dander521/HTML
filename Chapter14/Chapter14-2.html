@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table</title>
+	<style type="text/css">
+	body {
+		font-family: Arial, Verdana, sans-serif;
+		color: #111;
+	}
+	h1 {
+		text-align: center;
+		margin: 2px auto 3px auto;
+	}
+	table {
+		width: 600px;
+	}
+	th, td {
+		padding: 7px 10px 10px 10px;
+	}
+	th {
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		font-size: 90%;
+		border-bottom: 2px solid #111;
+		border-top: 1px solid #999;
+		text-align: left;
+	}
+	tr.even {
+		background-color: #efefef;
+	}
+	tr:hover {
+		background-color: #c3e6e5;
+	}
+	.money {
+		text-align: right;
+	}
+	td {
+		border: 1px solid #0088dd;
+		padding: 15px;
+		background-color: #0088dd;
+	}
+	table.one {
+		border-spacing: 5px 15px;
+	}
+	table.two {
+		border-collapse: collapse;
+	}
+	</style>
+</head>
+<body>
+	<h1>First Edition Auctions</h1>
+	<table>
+		<tr>
+			<th>Author</th>
+			<th>Title</th>
+			<th class="money">Reserve Price</th>
+			<th class="money">Current Bid</th>
+		</tr>
+		<tr>
+			<td>A</td>
+			<td>B</td>
+			<td class="money"></td>
+			<td class="money"></td>
+		</tr>
+		<tr class="even">
+			<td>C</td>
+			<td>D</td>
+			<td class="money">$2</td>
+			<td class="money">$1</td>
+		</tr>
+		<tr>
+			<td>E</td>
+			<td>F</td>
+			<td class="money"></td>
+			<td class="money"></td>
+		</tr>
+		<tr class="even">
+			<td>G</td>
+			<td>H</td>
+			<td class="money">$43</td>
+			<td class="money">$21</td>
+		</tr>
+	</table>
+
+	<br />
+	<table class="one">
+		<tr>
+			<td>1</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td></td>
+		</tr>
+	</table>
+	<table class="two">
+		<tr>
+			<td>1</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td></td>
+		</tr>
+	</table>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

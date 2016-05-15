@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<style type="text/css">
+		div {
+			border-bottom: 1px solid #efefef;
+			margin: 10px;
+			padding-bottom: 10px;
+			width: 260px;
+		}
+		.title {
+			float: left;
+			width: 100px;
+			text-align: right;
+			padding-right: 10px;
+		}
+		.submit {
+			text-align: right;
+		}
+		a {
+			cursor: move;
+		}
+	</style>
+</head>
+<body>
+	<form action="example.php" method="post">
+		<div>
+			<label for="name" class="title">Name:</label>
+			<input type="text" id="name" name="name"></input>
+		</div>
+		<div>
+			<label for="email" class="title">email:</label>
+			<input type="text" id="email" name="email"></input>
+		</div>
+		<div class="radio-buttons">
+			<span class="title">Gender:</span>
+			<input type="radio" name="gender" id="male" value="M"></input>
+			<label for="male">M</label>
+			<input type="radio" name="gender" id="female" value="F"></input>
+			<label for="female">F</label>
+		</div>
+		<div class="submit">
+			<input type="submit" value="Register" id="submit"></input>
+		</div>
+		<div>
+			<a href="www.baidu.com">Hahahaha</a>
+		</div>
+	</form>
+</body>
+</html>
